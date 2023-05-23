@@ -10,3 +10,4 @@ jupyterlab
 pdfminer.six
 tabulate
 pdf2image
+pip-review
