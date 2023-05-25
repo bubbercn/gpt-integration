@@ -38,6 +38,8 @@ while True:
     text_input = input("User: ")
     try:
         response = agent_chain.run(input=text_input)
-    except:
-        print("parse response failure")
+    except ValueError as e:
+        response = str(e)
+        if not response.startswith("Could not parse LLM output: `"):
+            raise e
     print(f'Agent: {response}')
