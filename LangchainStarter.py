@@ -2,7 +2,7 @@ import logging
 import sys
 import os
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "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"
 
 ## load the PDF using pypdf
 from langchain.document_loaders import PyPDFLoader

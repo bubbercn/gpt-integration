@@ -7,7 +7,7 @@ from langchain.agents import Tool
 import pandas as pd
 from llama_index.indices.struct_store import GPTPandasIndex
 import os
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "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"
 
 
 df = pd.read_excel("data/DSSMDOBJINFO.xlsx")

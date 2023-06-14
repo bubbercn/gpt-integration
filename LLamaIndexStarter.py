@@ -3,7 +3,7 @@ import sys
 
 ## setup your OpenAI Key
 import os
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "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"
 # enable logs to see what happen underneath
 logging.basicConfig(stream=sys.stdout, level=logging.DEBUG)
 logging.getLogger().addHandler(logging.StreamHandler(stream=sys.stdout))
