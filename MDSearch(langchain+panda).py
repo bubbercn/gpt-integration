@@ -1,6 +1,6 @@
 ## setup your OpenAI Key
 import os
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "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"
 
 from llama_index.indices.struct_store import GPTPandasIndex
 import pandas as pd
